@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Header from './components/Header'
+// import Header from './components/Header'
 import Photo from './components/Photo'
-import Description from './components/Description'
+// import Description from './components/Description'
 import axios from 'axios';
 import { BASE_URL, API_KEY } from './Constants';
 
@@ -22,9 +22,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header data={data}/>
+      {/* <Header data={data}/> */}
       <Photo data={data}/>
-      <Description data={data}/>
+      {/* <Description data={data}/> */}
     </div>
   );
 }
