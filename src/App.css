@@ -52,7 +52,7 @@ body {
 }
 
 .header-container h2 {
-    font-size: 30px;
+    font-size: calc(16px + 2vmin);
 }
 
 /* Photo.js Styles */
