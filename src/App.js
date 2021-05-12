@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <Header data={data}/>
       <Photo data={data}/>
-      {/* <Description data={data}/> */}
+      <Description data={data}/>
     </div>
   );
 }
