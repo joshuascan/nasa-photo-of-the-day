@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import Header from './components/Header'
+import Photo from './components/Photo'
+import Description from './components/Description'
 import axios from 'axios';
 import { BASE_URL, API_KEY } from './Constants';
 
@@ -19,10 +22,9 @@ function App() {
 
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+      <Header data={data}/>
+      <Photo data={data}/>
+      <Description data={data}/>
     </div>
   );
 }
