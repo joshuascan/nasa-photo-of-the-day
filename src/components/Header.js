@@ -21,6 +21,7 @@ const StyledHeader = styled.div`
   h2 {
     font-size: calc(16px + 2vmin);
     font-style: italic;
+    line-height: 1.2;
   }
 `
 
