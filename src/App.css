@@ -1,6 +1,6 @@
-body {
+/* body {
     background-color: #212F45;
-}
+} */
 
 .App {
   text-align: center;
@@ -56,11 +56,11 @@ body {
 
 /* Photo.js Styles */
 
-.image {
+/* .image {
     width: 80%;
     margin: 5%;
     border: 15px outset #0f0f1a;
-}
+} */
 
 /* Description.js Styles */
 

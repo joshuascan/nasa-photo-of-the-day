@@ -1,18 +1,20 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React from 'react';
+import React from 'react'
+import styled from 'styled-components'
 
-const Photo = (props) => {
-    const { data } = props;
+const StyledPhoto = styled.img`
+    width: 80%;
+    margin: 5%;
+    border: 15px outset #0f0f1a;
+`
 
+export default function Photo({ data }) {
     return (
         <div className='photo-container'>
-            <img
+            <StyledPhoto
                 alt='NASA image of the day'
-                className='image'
                 src={data.hdurl}
             />
         </div>
     );
 };
-
-export default Photo;
